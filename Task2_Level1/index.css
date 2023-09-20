@@ -1,0 +1,711 @@
+.Color {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Color :nth-child(1) {
+    background-color: #e55786;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 50px;
+
+}
+
+.Color :nth-child(2) {
+    background-color: #916db3;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 50px;
+
+}
+
+.Color :nth-child(3) {
+    background-color: #7eaa92;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+
+}
+
+.Pink .Nav,
+.Pink .MopNavLink:link,
+.Pink .MopNavLink:visited,
+.Pink .VideoLink:link,
+.Pink .VideoLink:visited,
+.Pink .Button:link,
+.Pink .Footer,
+.Pink .Button:visited {
+    background-color: #e55786;
+
+}
+
+.Pink .HomeImage1 {
+    display: none;
+}
+
+.Pink .HomeImage2 {
+    display: none;
+}
+
+.Pink .HomeImage {
+    display: unset;
+}
+
+.Pink .NavLink:link,
+.Pink .NavLink:visited {
+    background-color: #2ea5ba;
+}
+
+.Pink .Service {
+    background-color: #f0a9c1;
+    border-color: #e55786;
+}
+
+.pink .HomeHeader .Pink .Parag {
+    color: #2ea5ba;
+}
+
+.Pink .UseSection,
+.Pink .AboutSection {
+    background-color: #f0a9c1;
+    border-color: #f0a9c1;
+}
+
+.Pink .UseSection:hover {
+    --Use-Color: rgb(229, 87, 134);
+}
+
+.Pink .AboutSection:hover {
+    --About-Color: rgb(229, 87, 134);
+
+}
+
+.Pink .NavLink:hover,
+.Pink .MopNavLink:hover,
+.Pink .VideoLink:hover,
+.Pink .HomePart,
+.Pink .Header,
+.Pink {
+    color: #e55786;
+    background-color: white;
+}
+
+.pink .Service:hover {
+    --color: #e55786 !important;
+}
+
+.Pink .Button:hover {
+    --code-color: rgb(229, 87, 134);
+}
+
+/*******************************************/
+
+.Purple .Nav,
+.Purple .Mop,
+.Purple .MopNavLink:link,
+.Purple .MopNavLink:visited,
+.Purple .VideoLink:link,
+.Purple .VideoLink:visited,
+.Purple .Button:link,
+.Purple .Footer,
+.Purple .Button:visited {
+    background-color: #916db3;
+    border-color: #916db3;
+}
+
+.Purple .Service {
+    background-color: #916db3;
+    border-color: #916db3;
+}
+
+.Purple .HomeHeader,
+.Purple .Parag {
+    color: #e48586;
+}
+
+.Purple .HomeImage {
+    display: none;
+}
+
+.Purple .HomeImage1 {
+    display: unset;
+}
+
+.Purple .HomeImage2 {
+    display: none;
+}
+
+.Purple .UseSection,
+.Purple .AboutSection {
+    background-color: #916db3;
+    border-color: #916db3;
+}
+
+.Purple .NavLink:link,
+.Purple .NavLink:visited {
+    background-color: #e48586;
+    border-color: #e48586;
+}
+
+.Purple .UseSection:hover {
+    --Use-Color: #916db3;
+}
+
+.Purple .AboutSection:hover {
+    --About-Color: #916db3;
+
+}
+
+.Purple .NavLink:hover,
+.Purple .MopNavLink:hover,
+.Purple .VideoLink:hover,
+.Purple .HomePart,
+.Purple .Header,
+.Purple .Task {
+    color: #916db3;
+    background-color: white;
+}
+
+.Purple .Service:hover {
+    --color: #916db3 !important;
+}
+
+.Purple .Button:hover {
+    --code-color: #916db3;
+}
+
+/*******************************************/
+
+.Green .Nav,
+.Green .Mop,
+.Green .MopNavLink:link,
+.Green .MopNavLink:visited,
+.Green .VideoLink:link,
+.Green .VideoLink:visited,
+.Green .Button:link,
+.Green .Footer,
+.Green .Button:visited {
+    background-color: #7eaa92;
+    border-color: #7eaa92;
+}
+
+.Green .Service {
+    background-color: #7eaa92;
+    border-color: #7eaa92;
+}
+
+.Green .HomeHeader,
+.Green .Parag {
+    color: #f0c37b;
+}
+
+.Green .HomeImage {
+    display: none;
+}
+
+.Green .HomeImage1 {
+    display: none;
+}
+
+.Green .HomeImage2 {
+    display: unset;
+}
+
+.Green .UseSection,
+.Green .AboutSection {
+    background-color: #7eaa92;
+    border-color: #7eaa92;
+}
+
+.Green .NavLink:link,
+.Green .NavLink:visited {
+    background-color: #f0c37b;
+    border-color: #f0c37b;
+}
+
+.Green .UseSection:hover {
+    --Use-Color: #7eaa92;
+}
+
+.Green .AboutSection:hover {
+    --About-Color: #7eaa92;
+
+}
+
+.Green .NavLink:hover,
+.Green .MopNavLink:hover,
+.Green .VideoLink:hover,
+.Green .HomePart,
+.Green .Header,
+.Green .Task {
+    color: #7eaa92;
+    background-color: white;
+}
+
+.Green .Service:hover {
+    --color: #7eaa92 !important;
+}
+
+.Green .Button:hover {
+    --code-color: #7eaa92;
+}
+
+
+
+
+
+
+
+
+/********************************************************************************************************/
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #e55786;
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+    height: 50px;
+    z-index: 2;
+
+}
+
+.NavHeader {
+    color: white;
+    font-family: Charm, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .1rem;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.NavSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.NavLink:link,
+.NavLink:visited {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 5px 20px;
+    border: 1px solid #2ea5ba;
+    background-color: #2ea5ba;
+    border-radius: 30px;
+    font-style: italic;
+    font-size: larger;
+    font-family: Akaya Kanadaka, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.NavLink:hover {
+    color: #e55786;
+    background-color: white;
+}
+
+/*********************************Mop**************************************************************************/
+.MopNav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+
+}
+
+.Mop {
+    display: none;
+    background-color: #e55786;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.icon {
+    transform: scale(1.5, 1.5);
+    margin-left: 30px;
+    color: white
+}
+
+.Mop .NavHeader {
+    margin-right: 50px;
+}
+
+.MopNavSection {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.MopNavLink:link,
+.MopNavLink:visited {
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e55786;
+
+
+}
+
+.MopNavLink:hover {
+    color: rgb(229, 87, 134);
+    border-radius: 4px;
+    background-color: white;
+}
+
+/******************************************************************/
+#Home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.HomeImage {
+    border-radius: 20px;
+    width: 400px;
+    height: 420px;
+
+}
+
+.HomeImage1 {
+    border-radius: 20px;
+    width: 400px;
+    height: 420px;
+    display: none;
+}
+
+.HomeImage2 {
+    border-radius: 20px;
+    width: 400px;
+    height: 420px;
+    display: none;
+}
+
+.HomeSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+.HomePart {
+    color: #e55786;
+}
+
+.HomeHeader {
+    font-family: Charm, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    width: 70%;
+    color: #2ea5ba;
+}
+
+.VideoLink:link,
+.VideoLink:visited {
+    width: 140px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(229, 87, 134);
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: Akaya Kanadaka, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.VideoLink:hover {
+
+    color: rgb(229, 87, 134);
+    background-color: white;
+    border: 1px solid rgb(229, 87, 134);
+
+}
+
+/*****************************************************************************************/
+.Header {
+    color: #e55786;
+    text-align: center;
+    font-family: Charm, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    letter-spacing: .1rem;
+    margin-bottom: -15px;
+}
+
+.Parag {
+    color: #2ea5ba;
+    text-align: center;
+    font-family: Charm, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    letter-spacing: .05rem
+}
+
+.Para {
+    color: var(--color);
+    transition: color, .5s ease-in-out;
+    text-align: center;
+    font-family: Akaya Kanadaka, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: .05rem;
+}
+
+.ServiceSection {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+
+}
+
+
+
+.Service {
+    border: 1.5px solid #e55786;
+    width: 250px;
+    height: 380px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    background-color: #f0a9c1;
+    position: relative;
+    z-index: 1;
+    --color: white;
+    /*to make the element blew it appear*/
+
+}
+
+
+.Service:hover {
+    --color: #e55786 !important;
+}
+
+.Task {
+    color: #e55786;
+    text-align: center;
+    font-family: Charm, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    letter-spacing: .05rem
+}
+
+.ServiceImage {
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/**************************************************************/
+#Code {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Button:link,
+.Button:visited {
+    text-decoration: none;
+    padding: 20px 70px;
+    color: var(--code-color);
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #e55786;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: Akaya Kanadaka, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+    --code-color: white;
+    transition: color, .5s ease-in-out;
+}
+
+.Button:hover {
+    --code-color: rgb(229, 87, 134);
+}
+
+/*************************************************************/
+.UseSection {
+    display: flex;
+    background-color: #f0a9c1;
+    --Use-Color: white;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid #f0a9c1;
+    margin-bottom: 60px;
+
+}
+
+.Image {
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.ListPara {
+    color: var(--Use-Color);
+    transition: color, .5s ease-in-out;
+    font-family: Akaya Kanadaka, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    letter-spacing: .05rem;
+    text-align: start;
+    margin-bottom: 1rem;
+
+}
+
+.UseSection:hover {
+    --Use-Color: rgb(229, 87, 134);
+    border-color: white;
+}
+
+.Button::before,
+.Service::before,
+.UseSection::before,
+.AboutSection::before {
+    content: "";
+    position: absolute;
+    /*mean  new element has the same size the service*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    /***** no width but if 1 the original width*****/
+    background-color: white;
+    border-radius: 20px;
+    transform-origin: center;
+    /* change start from center*/
+    transition: transform, .2s ease-in-out;
+    /**translate : attribute when this attribute change translation take place */
+
+}
+
+.Button:hover:before,
+.Service:hover::before,
+.UseSection:hover::before,
+.AboutSection:hover::before {
+    transform: scaleX(1);
+}
+
+/*********************************************/
+.AboutSection {
+    display: flex;
+    background-color: #f0a9c1;
+    --About-Color: white;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid #f0a9c1;
+    margin-bottom: 60px;
+    height: 250px;
+}
+
+.AboutSection:hover {
+    --About-Color: rgb(229, 87, 134);
+    border-color: white;
+}
+
+.AboutDiv {
+    width: 50%;
+}
+
+.AboutPara {
+    color: var(--About-Color);
+    transition: color, .5s ease-in-out;
+    font-family: Akaya Kanadaka, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    letter-spacing: .05rem;
+    text-align: start;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+/************************************************************/
+#Contact {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/**********************************************/
+.Footer {
+
+    background-color: #e55786;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding-left: 40px;
+
+}
+
+.FooterSetion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.FooterLink:link,
+.FooterLink:visited {
+    margin-right: 70px;
+}
+
+/*****************************************************************/
+@media only screen and (max-width:880px) {
+    .MopNav {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .Mop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+
+    }
+
+    .Nav {
+        display: none;
+    }
+
+
+
+    .HomeHeader {
+        font-size: 35px;
+    }
+
+    .HomeImage {
+        height: 400px;
+        width: 170px;
+    }
+
+    .VideoLink:link {
+        font-size: 20px;
+        width: 120px;
+        padding: 10px 10px;
+    }
+
+    .AboutSection {
+        height: 400px;
+    }
+}

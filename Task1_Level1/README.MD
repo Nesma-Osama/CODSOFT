@@ -3,11 +3,17 @@
 A personal Portfolio helps you to put some information about yourself. So in this project, I made a Personal Portfolio that has much information about me:
 ## It Consists of 
 1-Navigation bar
+
 2-Home section
+
 3-About section
+
 4-Skill section
+
 5-Project Section
+
 6-Contact section
+
 7-Footer
 ## How I Made This Project
 I made it by using HTML, CSS, and Vanilla javascript.

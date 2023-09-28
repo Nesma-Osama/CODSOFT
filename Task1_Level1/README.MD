@@ -22,7 +22,7 @@ I made it by using HTML, CSS, and Vanilla javascript.
 
 2- Right-click the html file
 
-3- Choose Open with Live Server
+3- Choose"Open with Live Server"
 
 3-
 If you want to download the Resume click on the Download Resume.

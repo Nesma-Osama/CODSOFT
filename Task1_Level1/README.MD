@@ -1,6 +1,6 @@
 # Personal Portfolio
 ## Introduction
-A personal Portfolio helps you to put some information about yourself. So in this project, I made a Personal Portfolio that has much information about me like:
+A personal Portfolio helps you to put some information about yourself. So in this project, I made a Personal Portfolio that has much information about me:
 ## It Consists of 
 1-Navigation bar
 2-Home section

@@ -43,4 +43,4 @@ You can get my Email by clicking the email in contact.
 
 Finally, you can go to any section on the page by clicking on its name in the navigation bar.
 
-You can also change the color of the page by choosing this color.
+You can also change the color of the page by choosing that color.
